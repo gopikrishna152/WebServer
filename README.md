@@ -40,9 +40,9 @@ To run the Java Webserver, you will need to have Java Development Kit (JDK) inst
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/java-webserver.git
+git clone https://github.com/gopikrishna152/WebServer.git
 
-cd java-webserver
+
 
 ## Usage 
 
