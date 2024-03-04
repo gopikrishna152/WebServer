@@ -1,6 +1,6 @@
 # Java Webserver
 
-This project is a simple implementation of a web server using socket programming in Java. The web server serves static files to clients over HTTP.
+This project is a simple implementation of a web server using socket programming in Java.The primary goal of this project is to compare the performance differences between single-threaded, multi-threaded, and thread pool implementations. The server accepts or rejects client connections and measures latency.
 
 ## Table of Contents
 
@@ -25,12 +25,10 @@ The project is organized into the following folders, each containing a different
 
 - **thread-pool**: Contains the source code for a thread pool implementation of the web server.
   - `ThreadPoolWebServer.java`: Main server file.
-  - `ThreadPoolWebClient.java`: Client file for testing.
-
+  
 ## Features
 
 - Basic HTTP server functionality.
-- Supports serving static files (HTML, CSS, JavaScript, images, etc.).
 - Implements different threading strategies (single-threaded, multi-threaded, thread pool) for handling client requests.
 
 ## Installation
@@ -91,12 +89,6 @@ java Server
 - **Debugging**: Use JMeter's Debug Sampler and Debug PostProcessor to troubleshoot any issues encountered during testing.
 
 - **Security**: If you're testing secure TCP protocols (e.g., SSL/TLS), ensure that you configure JMeter appropriately with the necessary certificates and security settings.
-
-
-
-
-
-
 
 
 
